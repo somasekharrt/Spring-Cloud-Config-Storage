@@ -1,0 +1,13 @@
+db:
+    connection: '{connectionString:''http://_'',userName:''foo'',password:''pass''}'
+    host: 127.0.0.1
+    port: 1200
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+my:
+    greeting: Hello config server
+    list:
+        values: One,Two,Three
