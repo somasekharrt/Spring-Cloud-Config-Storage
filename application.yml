@@ -1,5 +1,5 @@
 db:
-    connection: '{connectionString:''http://_'',userName:''foo'',password:''pass''}'
+    connection: '{connectionString:''http://_'',userName:''git'',password:''pass''}'
     host: 127.0.0.1
     port: 1200
 management:
