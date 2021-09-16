@@ -1,5 +1,5 @@
 db:
-    connection: '{connectionString:''http://_'',userName:''git'',password:''pass''}'
+    connection: '{connectionString:''http://_'',userName:''gitbranch'',password:''develop''}'
     host: 127.0.0.1
     port: 1200
 management:
@@ -8,6 +8,6 @@ management:
             exposure:
                 include: '*'
 my:
-    greeting: Hello config server
+    greeting: Hello config server from develop
     list:
         values: One,Two,Three
